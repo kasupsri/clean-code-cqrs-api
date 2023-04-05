@@ -1,0 +1,5 @@
+@host=https://localhost:7274
+
+GET {{host}}/api/products/4
+Content-Type: application/json
+

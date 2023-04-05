@@ -1,0 +1,11 @@
+@host=https://localhost:7274
+
+POST {{host}}/api/products
+Content-Type: application/json
+
+{
+    "name": "Sample Product",
+    "description": "This is a sample product.",
+    "price": 16.99
+}
+
